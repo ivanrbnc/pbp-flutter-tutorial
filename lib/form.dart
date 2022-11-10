@@ -249,7 +249,8 @@ class _MyFormPageState extends State<MyFormPage> {
                                           ] else if (jenjangDoktor) ...[
                                             Text('Jenjang: Doktor'),
                                           ],
-                                          Text('Umur: ' + umur.toString()),
+                                          Text('Umur: ' +
+                                              umur.toInt().toString()),
                                           Text('Kelas: ' + kelasPBP),
                                           Text('On Practice Mode: ' +
                                               _nilaiSwitch.toString()),
